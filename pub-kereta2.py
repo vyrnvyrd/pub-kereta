@@ -21,6 +21,6 @@ E2 = {
     "nama_kereta": "Kereta 2",
     "posisi_kereta": "Stasiun A"
 }
-client.publish("T2", json.dumps(E2))
+client.publish("dashboard/kereta", json.dumps(E2))
 
 client.loop_stop()
