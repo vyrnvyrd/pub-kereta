@@ -19,7 +19,7 @@ client.tls_insecure_set(True)
 client.connect(host, port)
 client.loop_start()
 
-print("publish entitas 2: posisi kereta")
+print("publish entitas 2: posisi kereta 2")
 E2 = {
     "id": 1,
     "nama_kereta": "Kereta 2",
